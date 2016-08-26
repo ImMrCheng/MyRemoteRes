@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic,copy)NSString *name;
 @property (nonatomic,assign)BOOL sex;
 
 @end
